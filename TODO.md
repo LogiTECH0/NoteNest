@@ -1,0 +1,1 @@
+- [x] 2. Remove all CSS comments from ../../notenest/src/styles/index.css using edit_file
