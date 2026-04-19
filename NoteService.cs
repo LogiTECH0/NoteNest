@@ -70,6 +70,7 @@ public class NoteService
         note.IsDone = dto.isDone;
         note.Date = DateOnly.ParseExact(dto.Date, "yyyy-MM-dd");
         note.Color = dto.Color;
+        note.TextColor = dto.TextColor;
 
         _context.Notes.Update(note);
         _context.SaveChanges();
